@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: no-repeat url('./images/background.png');
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  font-family: -apple-system , BlinkMacSystemFont , Ubuntu , Open Sans , sans-serif;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+.Title {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Title > h2 {
+  color: white;
+}
+
+.Planets-Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Planet-Card {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.Planet-Card:hover {
+  background-color: rgba(32, 54, 107, 0.3);
+}
+
+.Planet-Card > p {
+  font-weight: 700;
+}
+
+.Mission-Card {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 20%;
+  text-align: center;
+}
+
+.Mission-Card:hover {
+  background-color: rgba(32, 54, 107, 0.3);
+}
+
+.Mission-Card > header {
+  border-bottom: 4px solid rgb(5, 118, 248);
+}
+
+/* .Missions-Container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
